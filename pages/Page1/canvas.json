@@ -1,0 +1,108 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 840,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "RichTextEditor1",
+              "displayName": "Rich Text Editor",
+              "iconSVG": "/static/media/icon.b35e139c93907b5eab3c68c1db842330.svg",
+              "labelText": "Label",
+              "searchTags": [
+                "input",
+                "rte"
+              ],
+              "topRow": 12,
+              "bottomRow": 84,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "RICH_TEXT_EDITOR_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 22.578125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 12,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelPosition": "Top",
+              "inputType": "markdown",
+              "isDisabled": false,
+              "key": "9hkfduasjc",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "isDefaultClickDisabled": true,
+              "dynamicHeight": "FIXED",
+              "widgetId": "teikpp2c2q",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "defaultText": "{{utils.change_lines()}}",
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page1_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "63ca62dd59494b25d40e599b_63ca62dd59494b25d40e599e"
+}
